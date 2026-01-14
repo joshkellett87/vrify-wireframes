@@ -8,3 +8,7 @@ expertMode = true
 
 [nix]
 channel = "stable-25_05"
+
+[deployment]
+build = "npm run build:project -- --project vrify-wireframes"
+run = "npm run preview -- --project vrify-wireframes --host 0.0.0.0"
