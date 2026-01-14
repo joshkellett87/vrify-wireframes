@@ -3,4 +3,7 @@ import { componentTagger } from "lovable-tagger";
 
 export default createWireframeViteConfig({
   plugins: [componentTagger()],
+  server: {
+    allowedHosts: true,
+  },
 });
