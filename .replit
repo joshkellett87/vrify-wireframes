@@ -1,6 +1,6 @@
 modules = ["nodejs-20", "web", "bash"]
 
-run = "npm run build:project --project vrify-wireframes && npm run preview --project vrify-wireframes -- --host 0.0.0.0"
+run = "npm run build:project -- --project vrify-wireframes && npm run preview -- --project vrify-wireframes --host 0.0.0.0"
 entrypoint = "projects/vrify-wireframes/src/main.tsx"
 
 [agent]
