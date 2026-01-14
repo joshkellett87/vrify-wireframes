@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0",
+  "id": "{{PROJECT_ID}}",
+  "slug": "{{PROJECT_SLUG}}",
+  "title": "{{PROJECT_TITLE}}",
+  "description": "{{PROJECT_DESCRIPTION}}",
+  "version": "1.0.0",
+  "lastUpdated": "{{TIMESTAMP}}",
+  "projectType": "multi-variant",
+  "routes": {
+    "index": "/{{PROJECT_SLUG}}"
+  },
+  "variants": {
+    "conversion-first": {
+      "title": "Conversion First",
+      "description": "Optimized for lead capture and conversion",
+      "hypothesis": "Leading with a clear CTA and minimal friction will increase conversion rates",
+      "businessContextRef": {
+        "goalIds": ["goal-increase-signups"],
+        "personaIds": ["decision-maker"]
+      }
+    },
+    "trust-building": {
+      "title": "Trust Building",
+      "description": "Emphasizes credibility and social proof",
+      "hypothesis": "Building trust through testimonials and credentials will reduce drop-off",
+      "businessContextRef": {
+        "goalIds": ["goal-build-trust"],
+        "personaIds": ["skeptical-buyer"]
+      }
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "label": "Hero Section",
+      "anchor": "hero",
+      "description": "Main value proposition"
+    },
+    {
+      "id": "features",
+      "label": "Features",
+      "anchor": "features",
+      "description": "Key product features"
+    },
+    {
+      "id": "cta",
+      "label": "Call to Action",
+      "anchor": "cta",
+      "description": "Primary conversion point"
+    }
+  ],
+  "businessContext": {
+    "primaryGoal": "goal-increase-signups",
+    "goals": [
+      "goal-increase-signups",
+      "goal-build-trust"
+    ],
+    "personas": [
+      "decision-maker",
+      "skeptical-buyer"
+    ],
+    "kpis": [
+      "kpi-conversion-rate",
+      "kpi-time-on-page"
+    ]
+  }
+}

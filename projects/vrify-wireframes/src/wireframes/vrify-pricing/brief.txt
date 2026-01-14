@@ -1,0 +1,81 @@
+VRIFY Pricing Wireframes
+=========================
+
+Project Origin
+--------------
+Migrated from external Lovable repository: https://github.com/joshkellett87/vrifypricing.git
+Integration Date: October 6, 2025
+Original Tech Stack: Vite + React + TypeScript + shadcn/ui (identical to main platform)
+
+Project Overview
+----------------
+This wireframe project showcases three distinct approaches to presenting pricing and product information for the VRIFY platform. The wireframes focus on demonstrating different layout strategies while maintaining consistent content and conversion goals.
+
+Primary Goal
+------------
+Drive "Book a Demo" CTA clicks from qualified prospects evaluating VRIFY's DORA and Viz products.
+
+Target Audience
+---------------
+- C-suite leaders at companies evaluating VRIFY platform products
+- Technical decision-makers reviewing product specifications and capabilities
+- Procurement teams assessing features, compliance requirements, and integration options
+- Investor-facing teams evaluating VRIFY partnerships
+
+Wireframe Variants
+------------------
+
+1. Wireframe A - Professional Cards
+   Route: /vrify-pricing/wireframe-a
+   Hypothesis: Classic card-based layout with structured product presentation helps buyers systematically compare two distinct offerings (DORA and Viz)
+   Layout: Side-by-side cards with grouped inclusions, specifications tables, and notes sections
+
+2. Wireframe B - Unified Panel
+   Route: /vrify-pricing/wireframe-b
+   Hypothesis: Single cohesive panel emphasizing platform unity reduces cognitive load and highlights product synergies
+   Layout: Split unified panel displaying both products in a single container with visual separation
+
+3. Wireframe C - Cards + Foundation
+   Route: /vrify-pricing/wireframe-c
+   Hypothesis: Professional cards showcasing main products (DORA, Viz) plus a compact foundational offering (Data Uploader) demonstrates platform extensibility and value layering
+   Layout: Two main product cards above a full-width compact foundation card
+
+Page Structure
+--------------
+All variants follow this consistent section flow:
+1. Hero - Two-column layout with headline, value proposition, primary CTA, and placeholder image
+2. Product Plans - Main content section showcasing DORA and Viz products with inclusions/specifications
+3. Social Proof - Logo grid demonstrating customer base (placeholder wireframe logos)
+4. How It Works - 4-step process flow (layout varies per variant)
+5. FAQ - Accordion-based FAQ organized by topic groups
+6. Final CTA - High-contrast conversion section prompting demo booking
+
+Key Design Principles
+---------------------
+- **Facts-first approach**: No pricing or term toggles shown; focuses on capabilities and specifications
+- **Inclusions vs. Specifications**: Clearly separated to serve different buyer needs
+  - Inclusions = capabilities/entitlements ("what you can do")
+  - Specifications = measurable attributes/limits ("how it behaves")
+- **Grayscale wireframe aesthetic**: Consistent with platform design system
+- **Lorem ipsum content**: Maintains focus on structure over specific messaging
+- **Responsive design**: Mobile-responsive with breakpoint considerations
+- **CTA visibility**: Strategic CTA placement in product sections and final conversion band
+
+Components Preview
+------------------
+Route: /vrify-pricing/components-preview
+A comprehensive component library page showcasing all UI components and section variations used across the wireframes. Includes sticky navigation for easy stakeholder review.
+
+Migration Notes
+---------------
+During integration into the multi-wireframe platform:
+- All import paths updated to use platform conventions (@/shared/ for shared components)
+- Navigation updated to use React Router Link components
+- Typography classes preserved in project-specific styles.css
+- All shadcn/ui components now reference shared UI library
+- Routes auto-generated via metadata.json configuration
+
+Resources
+---------
+- Original Lovable Project: https://lovable.dev/projects/49759e59-5aef-4707-8e94-e678bb37d4cc
+- GitHub Repository (External): https://github.com/joshkellett87/vrifypricing

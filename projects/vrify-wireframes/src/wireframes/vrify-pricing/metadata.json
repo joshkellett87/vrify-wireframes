@@ -1,0 +1,92 @@
+{
+  "schema_version": "2.0",
+  "id": "vrify-pricing",
+  "slug": "vrify-pricing",
+  "title": "Pricing Page V1",
+  "description": "Original pricing page wireframes (V1) with three layout variants for product presentation. Superseded by Pricing Page V2.",
+  "version": "0.3.0",
+  "lastUpdated": "2026-01-07",
+  "businessContext": {
+    "primaryGoal": "success-drive-qualified-demo-requests",
+    "goals": ["success-drive-qualified-demo-requests"],
+    "personas": ["operations-executive-sponsor"],
+    "kpis": ["kpi-qualified-demo-volume"]
+  },
+  "variants": {
+    "professional-cards": {
+      "name": "Professional Cards",
+      "label": "Wireframe A",
+      "description": "Classic card-based layout with structured product presentation to help buyers compare offerings systematically.",
+      "hypothesis": "Classic card-based layout with structured product presentation helps buyers compare offerings systematically",
+      "component": "WireframeA",
+      "ctaLabel": "View Wireframe A",
+      "businessContextRef": {
+        "goalIds": ["success-drive-qualified-demo-requests"],
+        "personaIds": ["operations-executive-sponsor"]
+      }
+    },
+    "unified-panel": {
+      "name": "Unified Panel",
+      "label": "Wireframe B",
+      "description": "Single cohesive panel emphasizing platform unity so buyers experience the offer as a streamlined product.",
+      "hypothesis": "Single cohesive panel emphasizing platform unity reduces cognitive load and highlights product synergies",
+      "component": "WireframeB",
+      "ctaLabel": "View Wireframe B",
+      "businessContextRef": {
+        "goalIds": ["success-drive-qualified-demo-requests"],
+        "personaIds": ["operations-executive-sponsor"]
+      }
+    },
+    "cards-foundation": {
+      "name": "Cards + Foundation",
+      "label": "Wireframe C",
+      "description": "Professional cards anchored by the Data Uploader foundation showcase to highlight extensibility.",
+      "hypothesis": "Professional cards with foundational Data Uploader showcase demonstrates platform extensibility",
+      "component": "WireframeC",
+      "ctaLabel": "View Wireframe C",
+      "businessContextRef": {
+        "goalIds": ["success-drive-qualified-demo-requests"],
+        "personaIds": ["operations-executive-sponsor"]
+      }
+    }
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "anchor": "hero"
+    },
+    {
+      "name": "Product Plans",
+      "anchor": "plans"
+    },
+    {
+      "name": "Social Proof",
+      "anchor": "social-proof"
+    },
+    {
+      "name": "How It Works",
+      "anchor": "how-it-works"
+    },
+    {
+      "name": "FAQ",
+      "anchor": "faq"
+    },
+    {
+      "name": "Final CTA",
+      "anchor": "cta"
+    }
+  ],
+  "targetAudience": [
+    "C-suite leaders evaluating VRIFY platform products",
+    "Technical decision-makers reviewing specifications and capabilities",
+    "Procurement teams assessing product features and compliance"
+  ],
+  "routes": {
+    "index": "/vrify-pricing",
+    "resources": [
+      "/vrify-pricing/components-preview"
+    ]
+  },
+  "projectType": "multi-variant",
+  "resources": []
+}

@@ -1,0 +1,11 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^http://localhost" },
+    { "pattern": "^https://localhost" },
+    { "pattern": "^http://127\\.0\\.0\\.1" },
+    { "pattern": "^file://" },
+    { "pattern": "^mcp__" },
+    { "pattern": "^chrome-devtools://" }
+  ],
+  "replacementPatterns": []
+}

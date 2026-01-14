@@ -1,0 +1,49 @@
+name: Metadata Checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Export business context snapshot
+        # Note: This gracefully handles missing context/BUSINESS-CONTEXT.md (git-ignored)
+        # Validator proceeds with reduced checks when export is unavailable
+        run: npm run export:business-context -- --quiet
+
+      - name: Check for wireframe projects
+        id: check-projects
+        run: |
+          # Check for actual project subdirectories (not just .gitkeep)
+          if [ -d "projects" ] && [ "$(find projects -mindepth 1 -maxdepth 1 -type d 2>/dev/null)" ]; then
+            echo "has_projects=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_projects=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Validate metadata schema
+        if: steps.check-projects.outputs.has_projects == 'true'
+        run: npm run validate:metadata
+
+      - name: Skip validation (no projects)
+        if: steps.check-projects.outputs.has_projects == 'false'
+        run: |
+          echo "ℹ️  No wireframe projects found to validate"
+          echo "Projects directory is empty or doesn't exist (expected in framework repo)"
+          echo "Validation will run automatically when projects are added"

@@ -1,0 +1,121 @@
+{
+  "revisionHistory": [],
+  "shortTermObjectives": [
+    {
+      "id": "category-leadership-establish-vrify-as-the-leading-ai-assisted-discovery-platfor",
+      "label": "**Category Leadership:** Establish VRIFY as the **leading AI-assisted discovery platform** in the market within the next year, demonstrated by high-profile client successes and outperforming competitors on tangible results【11†L163-L171】. This includes converting early adopters’ skepticism into advocacy by delivering clear “win” cases (e.g. significant new mineral finds for pilot customers) that validate VRIFY’s technology."
+    },
+    {
+      "id": "go-to-market-traction-accelerate-new-customer-acquisition-among-target-explorati",
+      "label": "**Go-to-Market Traction:** Accelerate new customer acquisition among target exploration companies through focused ABM (Account-Based Marketing) and flagship industry engagements. The aim is to quickly win a critical mass of reputable clients and publicize their success stories, building credibility and buzz around VRIFY’s offering【10†L65-L70】."
+    }
+  ],
+  "midTermObjectives": [
+    {
+      "id": "broad-industry-adoption-achieve-widespread-adoption-across-the-global-exploratio",
+      "label": "**Broad Industry Adoption:** Achieve **widespread adoption** across the global exploration industry. VRIFY is targeting a majority of the top 250 mineral exploration companies to be on the platform in the near to mid term【11†L199-L207】, and ultimately aims to capture ~80% of the addressable exploration market share【11†L201-L204】. Expansion into additional mining regions (e.g. Africa, South America) is planned as the platform’s reputation grows【11†L249-L258】."
+    },
+    {
+      "id": "standard-setter-ecosystem-growth-solidify-vrify-s-role-as-an-industry-standard-f",
+      "label": "**Standard-Setter & Ecosystem Growth:** Solidify VRIFY’s role as an **industry standard** for AI-driven exploration. This involves establishing proprietary benchmarks (e.g. a “VRIFY AI Prospectivity Score” or an index of top AI-discovered targets) as common reference points【11†L201-L207】. VRIFY also intends to host premier annual events and communities (e.g. an AI Exploration Summit) to reinforce thought leadership and foster a loyal user ecosystem. By owning the narrative on AI in mineral exploration, VRIFY will entrench its brand and encourage network effects (more data and users improving the platform over time)."
+    }
+  ],
+  "keyPerformanceIndicators": [
+    {
+      "id": "discovery-successes-number-of-significant-mineral-discoveries-or-resource-upgrad",
+      "label": "**Discovery Successes:** Number of significant mineral discoveries or resource upgrades directly attributable to VRIFY’s platform (a core metric demonstrating client ROI)【11†L199-L207】. Early examples (e.g. new drill targets leading to discoveries) serve as proof points for this KPI."
+    },
+    {
+      "id": "adoption-rate-proportion-of-top-tier-exploration-companies-using-vrify-goals-inc",
+      "label": "**Adoption Rate:** Proportion of top-tier exploration companies using VRIFY. Goals include **majority of the top 250 firms** and progressing toward thousands of users globally (reflecting the ~80% market share ambition)【11†L201-L204】."
+    },
+    {
+      "id": "market-leadership-metrics-recognition-and-influence-indicators-such-as-attendanc",
+      "label": "**Market Leadership Metrics:** Recognition and influence indicators such as attendance/visibility of VRIFY’s own industry event (aiming to be the sector’s most prestigious annual forum), and the uptake of VRIFY’s metrics or reports (e.g. how widely the “VRIFY AI 20” list is cited in industry)【11†L201-L207】."
+    }
+  ],
+  "successMetrics": [],
+  "personas": [
+    {
+      "type": "primary",
+      "name": "**CEO / Managing Director** (Exploration Company Executive)",
+      "id": "ceo-managing-director-exploration-company-executive",
+      "profile": "",
+      "painPoints": [],
+      "motivations": [],
+      "decisionRole": "",
+      "notes": []
+    },
+    {
+      "type": "primary",
+      "name": "**VP Exploration / Chief Geologist** (Technical Decision-Maker)",
+      "id": "vp-exploration-chief-geologist-technical-decision-maker",
+      "profile": "",
+      "painPoints": [],
+      "motivations": [],
+      "decisionRole": "",
+      "notes": []
+    },
+    {
+      "type": "secondary",
+      "name": "**Investor Relations (IR) Manager** (Communications & Marketing Stakeholder)",
+      "id": "investor-relations-ir-manager-communications-marketing-stakeholder",
+      "profile": "",
+      "painPoints": [],
+      "motivations": [],
+      "decisionRole": "",
+      "notes": []
+    }
+  ],
+  "secondaryAudiences": [],
+  "strategicGoals": {
+    "shortTerm": [
+      "**Category Leadership:** Establish VRIFY as the **leading AI-assisted discovery platform** in the market within the next year, demonstrated by high-profile client successes and outperforming competitors on tangible results【11†L163-L171】. This includes converting early adopters’ skepticism into advocacy by delivering clear “win” cases (e.g. significant new mineral finds for pilot customers) that validate VRIFY’s technology.",
+      "**Go-to-Market Traction:** Accelerate new customer acquisition among target exploration companies through focused ABM (Account-Based Marketing) and flagship industry engagements. The aim is to quickly win a critical mass of reputable clients and publicize their success stories, building credibility and buzz around VRIFY’s offering【10†L65-L70】."
+    ],
+    "midTerm": [
+      "**Broad Industry Adoption:** Achieve **widespread adoption** across the global exploration industry. VRIFY is targeting a majority of the top 250 mineral exploration companies to be on the platform in the near to mid term【11†L199-L207】, and ultimately aims to capture ~80% of the addressable exploration market share【11†L201-L204】. Expansion into additional mining regions (e.g. Africa, South America) is planned as the platform’s reputation grows【11†L249-L258】.",
+      "**Standard-Setter & Ecosystem Growth:** Solidify VRIFY’s role as an **industry standard** for AI-driven exploration. This involves establishing proprietary benchmarks (e.g. a “VRIFY AI Prospectivity Score” or an index of top AI-discovered targets) as common reference points【11†L201-L207】. VRIFY also intends to host premier annual events and communities (e.g. an AI Exploration Summit) to reinforce thought leadership and foster a loyal user ecosystem. By owning the narrative on AI in mineral exploration, VRIFY will entrench its brand and encourage network effects (more data and users improving the platform over time)."
+    ],
+    "kpis": [
+      "**Discovery Successes:** Number of significant mineral discoveries or resource upgrades directly attributable to VRIFY’s platform (a core metric demonstrating client ROI)【11†L199-L207】. Early examples (e.g. new drill targets leading to discoveries) serve as proof points for this KPI.",
+      "**Adoption Rate:** Proportion of top-tier exploration companies using VRIFY. Goals include **majority of the top 250 firms** and progressing toward thousands of users globally (reflecting the ~80% market share ambition)【11†L201-L204】.",
+      "**Market Leadership Metrics:** Recognition and influence indicators such as attendance/visibility of VRIFY’s own industry event (aiming to be the sector’s most prestigious annual forum), and the uptake of VRIFY’s metrics or reports (e.g. how widely the “VRIFY AI 20” list is cited in industry)【11†L201-L207】."
+    ],
+    "projectSuccessMetrics": []
+  },
+  "targetAudiences": [
+    {
+      "id": "ceo-managing-director-exploration-company-executive",
+      "name": "**CEO / Managing Director** (Exploration Company Executive)",
+      "type": "primary",
+      "profile": null,
+      "painPoints": [],
+      "motivations": [],
+      "decisionRole": null,
+      "notes": []
+    },
+    {
+      "id": "vp-exploration-chief-geologist-technical-decision-maker",
+      "name": "**VP Exploration / Chief Geologist** (Technical Decision-Maker)",
+      "type": "primary",
+      "profile": null,
+      "painPoints": [],
+      "motivations": [],
+      "decisionRole": null,
+      "notes": []
+    },
+    {
+      "id": "investor-relations-ir-manager-communications-marketing-stakeholder",
+      "name": "**Investor Relations (IR) Manager** (Communications & Marketing Stakeholder)",
+      "type": "secondary",
+      "profile": null,
+      "painPoints": [],
+      "motivations": [],
+      "decisionRole": null,
+      "notes": []
+    }
+  ],
+  "source": "projects/vrify-wireframes/context/BUSINESS-CONTEXT.md",
+  "exportedAt": "2025-10-21T20:22:32.451Z"
+}

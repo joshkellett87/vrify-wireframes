@@ -1,0 +1,133 @@
+/**
+ * Wireframe Annotated Theme
+ *
+ * Use for:
+ * - Design redlines
+ * - Developer handoff
+ * - Measurement/spacing documentation
+ * - Accessibility annotations
+ *
+ * Apply: Add class "wireframe-annotated" to html or body element
+ */
+
+.wireframe-annotated {
+  --annotation-color: hsl(0, 0%, 50%);
+  --measurement-color: hsl(0, 0%, 35%);
+}
+
+/* Show measurement guides */
+.wireframe-annotated .wireframe-section {
+  position: relative;
+  outline: 1px dashed var(--annotation-color);
+  outline-offset: -1px;
+}
+
+/* Section labels */
+.wireframe-annotated .wireframe-section::before {
+  content: attr(id) " section";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 10px;
+  font-family: monospace;
+  background: var(--annotation-color);
+  color: white;
+  padding: 2px 6px;
+  z-index: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Grid overlay */
+.wireframe-annotated .wireframe-grid {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 7px,
+      var(--annotation-color) 7px,
+      var(--annotation-color) 8px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 7px,
+      var(--annotation-color) 7px,
+      var(--annotation-color) 8px
+    );
+  background-size: 8px 8px;
+  opacity: 0.15;
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+/* Show spacing values */
+.wireframe-annotated [class*="gap-"],
+.wireframe-annotated [class*="space-"] {
+  outline: 1px dotted var(--measurement-color);
+}
+
+/* Highlight interactive elements */
+.wireframe-annotated button,
+.wireframe-annotated a,
+.wireframe-annotated input,
+.wireframe-annotated textarea,
+.wireframe-annotated select {
+  outline: 2px solid var(--annotation-color);
+  outline-offset: 2px;
+}
+
+/* ARIA label annotations */
+.wireframe-annotated [aria-label]::after {
+  content: "aria: " attr(aria-label);
+  position: absolute;
+  font-size: 9px;
+  font-family: monospace;
+  background: var(--annotation-color);
+  color: white;
+  padding: 1px 4px;
+  margin-left: 4px;
+  white-space: nowrap;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* Component boundary markers */
+.wireframe-annotated .wireframe-card,
+.wireframe-annotated .wireframe-section {
+  position: relative;
+}
+
+.wireframe-annotated .wireframe-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px dashed var(--annotation-color);
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+/* Annotation mode toggle helper */
+.annotation-toggle {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 9999;
+  padding: 8px 16px;
+  background: var(--annotation-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: monospace;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.annotation-toggle:hover {
+  background: var(--measurement-color);
+}

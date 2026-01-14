@@ -1,0 +1,140 @@
+{
+  "schema_version": "2.0",
+  "id": "example-project",
+  "slug": "example-project",
+  "title": "Example Project",
+  "description": "Complete metadata schema v2.0 example with inline comments",
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-20",
+
+  "businessContext": {
+    "primaryGoal": "success-drive-qualified-demo-requests",
+    "goals": [
+      "success-drive-qualified-demo-requests"
+    ],
+    "personas": [
+      "operations-executive-sponsor",
+      "digital-workflows-evaluator"
+    ],
+    "kpis": [
+      "kpi-qualified-demo-volume"
+    ]
+  },
+
+  "variants": {
+    "conversion-first": {
+      "name": "Conversion First",
+      "description": "Hero form above the fold for minimal friction",
+      "emphasis": "Keeps the CTA visible for warm audiences already familiar with value prop",
+      "when": "Use for nurture campaigns, remarketing traffic, and warm leads",
+      "hypothesis": "Reducing friction and presenting immediate conversion path increases qualified demo requests",
+      "businessContextRef": {
+        "goalIds": ["success-drive-qualified-demo-requests"],
+        "personaIds": ["operations-executive-sponsor"]
+      }
+    },
+    "trust-forward": {
+      "name": "Trust Forward",
+      "description": "Methodology and proof points before CTA",
+      "emphasis": "Show research rigor and credibility for colder audiences",
+      "when": "Use for net-new evaluators, paid search, and top-of-funnel traffic",
+      "businessContextRef": {
+        "goalIds": ["success-drive-qualified-demo-requests"],
+        "personaIds": [
+          "operations-executive-sponsor",
+          "digital-workflows-evaluator"
+        ]
+      }
+    },
+    "data-deep-dive": {
+      "name": "Data Deep Dive",
+      "description": "Comprehensive findings with interactive exploration",
+      "emphasis": "Detailed insights for analytical decision-makers",
+      "when": "Use for technical evaluators who need comprehensive evidence",
+      "hypothesis": "Data-driven personas convert better when given full analytical depth",
+      "businessContextRef": {
+        "goalIds": ["success-drive-qualified-demo-requests"],
+        "personaIds": ["digital-workflows-evaluator"]
+      }
+    }
+  },
+
+  "sections": [
+    {
+      "name": "Hero",
+      "anchor": "hero",
+      "whyNow": "Orient the visitor and surface the value proposition immediately",
+      "jtbd": {
+        "situation": "Visitor lands via campaign link or organic search",
+        "motivation": "Quickly assess if this content is relevant to their needs",
+        "outcome": "Decide to explore further or proceed to conversion"
+      }
+    },
+    {
+      "name": "Overview",
+      "anchor": "overview",
+      "whyNow": "Provide context about the research and its scope",
+      "jtbd": {
+        "situation": "Visitor wants to understand what the report covers",
+        "motivation": "Confirm the research is relevant and credible",
+        "outcome": "Feel confident this is worth their time"
+      }
+    },
+    {
+      "name": "Key Findings",
+      "anchor": "findings",
+      "whyNow": "Present high-value insights early for quick decision-making",
+      "jtbd": {
+        "situation": "Visitor is evaluating the quality and relevance of insights",
+        "motivation": "Extract actionable intelligence quickly",
+        "outcome": "Identify findings relevant to their challenges"
+      }
+    },
+    {
+      "name": "Methodology",
+      "anchor": "methodology",
+      "whyNow": "Build credibility through transparent research practices",
+      "jtbd": {
+        "situation": "Visitor wants to assess data quality and rigor",
+        "motivation": "Validate the research methodology",
+        "outcome": "Trust the findings enough to act on them"
+      }
+    },
+    {
+      "name": "CTA",
+      "anchor": "cta",
+      "whyNow": "Convert interested visitors into qualified leads",
+      "jtbd": {
+        "situation": "Visitor is convinced of value and ready to engage",
+        "motivation": "Take next step (demo, consultation, download)",
+        "outcome": "Submit form and receive promised value"
+      }
+    },
+    {
+      "name": "FAQ",
+      "anchor": "faq",
+      "whyNow": "Address common objections and questions before conversion",
+      "jtbd": {
+        "situation": "Visitor has questions preventing conversion",
+        "motivation": "Get clarification without leaving page",
+        "outcome": "Overcome objections and proceed to CTA"
+      }
+    }
+  ],
+
+  "targetAudience": [
+    "Operations executives evaluating digital transformation solutions",
+    "Technical directors assessing workflow automation platforms",
+    "Revenue leaders seeking competitive intelligence"
+  ],
+
+  "routes": {
+    "index": "/example-project",
+    "resources": [
+      "/example-project/resources",
+      "/example-project/resources/playbook"
+    ]
+  },
+
+  "projectType": "multi-variant"
+}

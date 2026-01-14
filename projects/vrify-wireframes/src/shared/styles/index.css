@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* VRIFY Wireframe Design System - Grayscale Only
+12-column grid, 24px gutters, 8px baseline rhythm
+*/
+
+@layer base {
+  :root {
+    /* High-contrast wireframe theme - charcoal/white */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 9%;
+    --primary: 0 0% 20%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 20%;
+    --muted: 0 0% 94%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 0 0% 94%;
+    --accent-foreground: 0 0% 20%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 80%;
+    --input: 0 0% 80%;
+    --ring: 0 0% 20%;
+    --radius: 0.5rem;
+    --chart-1: 0 0% 20%;
+    --chart-2: 0 0% 40%;
+    --chart-3: 0 0% 60%;
+    --chart-4: 0 0% 80%;
+    --chart-5: 0 0% 95%;
+
+    /* Sidebar tokens */
+    --sidebar-background: 0 0% 97%;
+    --sidebar-foreground: 0 0% 20%;
+    --sidebar-primary: 0 0% 20%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 94%;
+    --sidebar-accent-foreground: 0 0% 20%;
+    --sidebar-border: 0 0% 80%;
+    --sidebar-ring: 0 0% 20%;
+
+    /* Preserve existing VRIFY wireframe tokens */
+    --wireframe-50: 0 0% 98%;
+    --wireframe-100: 0 0% 94%;
+    --wireframe-200: 0 0% 88%;
+    --wireframe-300: 0 0% 76%;
+    --wireframe-400: 0 0% 58%;
+    --wireframe-500: 0 0% 38%;
+    --wireframe-600: 0 0% 28%;
+    --wireframe-700: 0 0% 18%;
+    --wireframe-800: 0 0% 12%;
+    --wireframe-900: 0 0% 8%;
+
+    /* Additional semantics used by our components */
+    --card-border: 0 0% 80%;
+    --primary-hover: 0 0% 10%;
+    --secondary-hover: 0 0% 92%;
+    --input-border: 0 0% 80%;
+    --annotation: 0 0% 50%;
+    --placeholder: 0 0% 85%;
+
+    /* Typography scale - 8px baseline rhythm */
+    --text-xs: 0.75rem; /* 12px */
+    --text-sm: 0.875rem; /* 14px */  
+    --text-base: 1rem; /* 16px */
+    --text-lg: 1.125rem; /* 18px */
+    --text-xl: 1.25rem; /* 20px */
+    --text-2xl: 1.5rem; /* 24px */
+    --text-3xl: 1.875rem; /* 30px */
+    --text-4xl: 2.25rem; /* 36px */
+
+    /* Spacing - 8px baseline */
+    --space-1: 0.5rem; /* 8px */
+    --space-2: 1rem; /* 16px */
+    --space-3: 1.5rem; /* 24px - gutter */
+    --space-4: 2rem; /* 32px */
+    --space-6: 3rem; /* 48px */
+    --space-8: 4rem; /* 64px */
+    --space-12: 6rem; /* 96px */
+    --space-16: 8rem; /* 128px */
+  }
+
+  .dark {
+    --background: 338.2 10% 10%;
+    --foreground: 340 10% 90%;
+    --card: 338.2 10% 10%;
+    --card-foreground: 340 10% 90%;
+    --popover: 338.2 10% 10%;
+    --popover-foreground: 340 10% 90%;
+    --primary: 342 10% 27.799999999999997%;
+    --primary-foreground: 334.3 10% 90%;
+    --secondary: 340 10% 10%;
+    --secondary-foreground: 340 10% 61.4%;
+    --muted: 351.4 10% 13.299999999999997%;
+    --muted-foreground: 340 10% 61.4%;
+    --accent: 351.4 10% 13.299999999999997%;
+    --accent-foreground: 340 10% 71.4%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 340 10% 90%;
+    --border: 340 10% 61.4%;
+    --input: 340 10% 61.4%;
+    --ring: 342 10% 27.799999999999997%;
+    --radius: 0.5rem;
+    --chart-1: 342 10% 42.2%;
+    --chart-2: 340 10% 60%;
+    --chart-3: 351.4 10% 56.7%;
+    --chart-4: 351.4 10% 60%;
+    --chart-5: 342 10% 52.2%;
+
+    /* Sidebar tokens (dark) */
+    --sidebar-background: 338 10% 2%;
+    --sidebar-foreground: 340 10% 56%;
+    --sidebar-primary: 342 10% 50%;
+    --sidebar-primary-foreground: 334 10% 100%;
+    --sidebar-accent: 351 10% 25%;
+    --sidebar-accent-foreground: 340 10% 71.4%;
+    --sidebar-border: 340 10% 53%;
+    --sidebar-ring: 342 10% 20%;
+  }
+}
+
+/* Wireframe-specific utilities */
+@layer components {
+  .wireframe-container {
+    @apply max-w-7xl mx-auto px-6;
+  }
+  
+  .wireframe-grid {
+    @apply grid grid-cols-12 gap-6;
+  }
+  
+  .wireframe-section {
+    @apply py-8 border-b border-border;
+  }
+  
+  .wireframe-card {
+    @apply bg-card border border-card-border rounded p-6 transition-all duration-200;
+  }
+  
+  .wireframe-card:hover {
+    @apply border-wireframe-300 shadow-sm;
+  }
+  
+  .wireframe-placeholder {
+    @apply bg-placeholder border-2 border-dashed border-wireframe-300 rounded flex items-center justify-center text-wireframe-500 font-mono text-sm;
+  }
+  
+  .wireframe-annotation {
+    @apply text-xs text-annotation border-l-2 border-wireframe-300 pl-3 italic;
+  }
+  
+  .baseline-rhythm {
+    line-height: 1.5; /* 24px for 16px text = 8px x 3 */
+  }
+  
+  .baseline-rhythm-sm {
+    line-height: 1.71; /* ~24px for 14px text */
+  }
+
+  /* Typography utility classes for VRIFY wireframes */
+  .hero-heading {
+    @apply font-inter font-bold;
+    font-size: 60px;
+    line-height: 1.15;
+  }
+
+  .h1-heading {
+    @apply font-inter font-bold leading-tight;
+    font-size: 48px;
+  }
+
+  .h2-heading {
+    @apply font-inter font-bold leading-tight;
+    font-size: 36px;
+  }
+
+  .h3-heading {
+    @apply font-inter font-medium leading-relaxed;
+    font-size: 24px;
+  }
+
+  .h4-heading {
+    @apply font-inter font-medium leading-relaxed;
+    font-size: 20px;
+  }
+
+  .body-text {
+    @apply font-inter font-normal leading-relaxed;
+    font-size: 16px;
+  }
+
+  .caption-text {
+    @apply font-plex-mono font-normal leading-relaxed;
+    font-size: 14px;
+  }
+
+  .button-text {
+    @apply font-inter font-medium;
+    font-size: 16px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    font-family: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    @apply bg-background text-foreground antialiased;
+  }
+
+  code, pre {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+}

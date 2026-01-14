@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "2.0",
+  "id": "{{PROJECT_ID}}",
+  "slug": "{{PROJECT_SLUG}}",
+  "title": "{{PROJECT_TITLE}}",
+  "description": "{{PROJECT_DESCRIPTION}}",
+  "version": "1.0.0",
+  "lastUpdated": "{{TIMESTAMP}}",
+  "projectType": "multi-variant",
+  "routes": {
+    "index": "/{{PROJECT_SLUG}}"
+  },
+  "variants": {},
+  "sections": [
+    {
+      "id": "components",
+      "label": "Component Showcase",
+      "anchor": "components",
+      "description": "Available shared components"
+    },
+    {
+      "id": "patterns",
+      "label": "Layout Patterns",
+      "anchor": "patterns",
+      "description": "Common wireframe patterns"
+    }
+  ],
+  "businessContext": {
+    "primaryGoal": null,
+    "goals": [],
+    "personas": [],
+    "kpis": []
+  }
+}

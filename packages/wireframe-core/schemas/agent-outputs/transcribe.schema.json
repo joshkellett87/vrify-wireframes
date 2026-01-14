@@ -1,0 +1,15 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schemas/agent-outputs/transcribe.schema.json",
+  "title": "Transcribe",
+  "type": "object",
+  "allOf": [ { "$ref": "universal-header.schema.json" } ],
+  "properties": {
+    "copyMode": { "type": "string" },
+    "sections": { "type": "array", "items": { "type": "object" } },
+    "anchorSuggestions": { "type": "array", "items": { "type": "string" } },
+    "metadataSuggestions": { "type": "object" },
+    "assumptions": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["agentName", "contractId", "version", "timestamp", "projectSlug", "sections"]
+}

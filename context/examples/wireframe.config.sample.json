@@ -1,0 +1,10 @@
+{
+  "defaultProject": "my-project",
+  "selfIteration": {
+    "enabled": false,
+    "maxIterations": 2,
+    "autoFix": false,
+    "snapshotDelayMs": 750,
+    "devServerPort": 8080
+  }
+}

@@ -1,0 +1,10 @@
+# Test infrastructure (CI-only, not needed for wireframing)
+tests/
+packages/wireframe-core/scripts/tests/
+*.test.*
+*.spec.*
+vitest.config.ts
+playwright.config.ts
+playwright-report/
+test-results/
+coverage/

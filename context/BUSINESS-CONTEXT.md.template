@@ -1,0 +1,220 @@
+# Business Context — [Project Name]
+
+*Last Updated: [Date]*
+*Gathered by: business-context-gatherer agent*
+
+> **Instructions**: This template is automatically populated by the `business-context-gatherer` agent at the start of new wireframe projects. The agent will ask you strategic questions and fill in this structure. You can also manually edit this file to update business context as your strategy evolves.
+
+## Revision History
+
+| Date (YYYY-MM-DD) | Editor | Summary | Source / Ticket |
+| ----------------- | ------ | ------- | --------------- |
+| 2025-10-06        | business-context-gatherer | Initial capture from intake workflow | orchestrator |
+
+> Add new entries to the top of this table so recent changes stay visible.
+
+---
+
+## Industry & Market
+
+### Sector
+[Industry/sector description - e.g., "Enterprise SaaS for supply chain management"]
+
+### Target Market
+[B2B/B2C, enterprise/SMB/consumer, geographic focus - e.g., "B2B, mid-market and enterprise companies (500-10,000 employees) in North America"]
+
+### Market Dynamics
+[Key trends, challenges, opportunities in the market - e.g., "Increasing demand for real-time visibility, rising supply chain complexity, labor shortages driving automation"]
+
+---
+
+## Business Model
+
+### Revenue Streams
+[How the business makes money - e.g., "Annual subscription licenses, implementation services, premium support tiers"]
+
+### Customer Segments
+[Primary customer types and characteristics - e.g., "Supply chain directors at manufacturing companies, logistics managers at 3PLs, procurement teams at retailers"]
+
+### Core Value Proposition
+[The fundamental problem solved and value delivered - e.g., "We provide real-time supply chain visibility that reduces stockouts by 40% and cuts manual reconciliation time by 60%"]
+
+---
+
+## Strategic Goals
+
+### Short-Term Objectives (3-6 months)
+- [Objective 1 - e.g., "Increase demo-to-trial conversion rate from 25% to 35%"]
+- [Objective 2 - e.g., "Launch enterprise tier with advanced security features"]
+- [Objective 3 - e.g., "Establish thought leadership in supply chain AI"]
+
+### Mid-Term Objectives (6-12 months)
+- [Objective 1 - e.g., "Achieve 100 enterprise customers"]
+- [Objective 2 - e.g., "Expand into European markets"]
+
+### Key Performance Indicators
+- [KPI 1 with target - e.g., "MRR growth: 20% month-over-month"]
+- [KPI 2 with target - e.g., "Enterprise deal velocity: 45 days average sales cycle"]
+- [KPI 3 with target - e.g., "Net revenue retention: >110%"]
+
+### Success Metrics for This Project
+[What defines success for this specific wireframe/project - e.g., "This product page wireframe should generate 50+ qualified demo requests per week with 30%+ enterprise segment representation"]
+
+---
+
+## Market Position & Differentiation
+
+### Current Market Position
+[Leader, challenger, niche player, emerging entrant - e.g., "Emerging challenger in the mid-market segment, gaining traction against legacy enterprise players"]
+
+### Competitive Advantages
+1. [Advantage 1 - e.g., "Real-time AI-powered anomaly detection (competitors offer batch processing only)"]
+2. [Advantage 2 - e.g., "10x faster implementation (days vs. months for legacy systems)"]
+3. [Advantage 3 - e.g., "Modern API-first architecture enabling seamless ERP integration"]
+
+### Desired Brand Positioning
+[How the company wants to be perceived and known - e.g., "The modern, AI-native supply chain platform for growth-stage companies who refuse to settle for slow, complex legacy software"]
+
+### Unique Differentiators
+[What makes this offering truly distinct from alternatives - e.g., "Only platform combining real-time visibility, predictive AI, and sub-24-hour implementation in a single solution"]
+
+---
+
+## Target Audiences
+
+### Primary Persona 1: Supply Chain Director
+- **Profile**: Mid-level to senior executive, 8-15 years experience, typically reports to COO/VP Operations
+- **Pain Points**:
+  - Blind spots in supply chain causing costly stockouts and excess inventory
+  - Manual data reconciliation consuming team's time
+  - Legacy systems requiring months to implement and customize
+- **Motivations**: Reduce costs, improve reliability, gain strategic visibility, modernize tech stack
+- **Decision Role**: Primary decision-maker, controls budget, evaluates ROI
+
+### Primary Persona 2: Logistics Manager
+- **Profile**: Operational leader, 5-10 years experience, manages day-to-day logistics operations
+- **Pain Points**:
+  - Firefighting daily issues due to lack of visibility
+  - Difficulty coordinating across carriers and warehouses
+  - Pressure to reduce costs while maintaining service levels
+- **Motivations**: Streamline operations, reduce manual work, improve on-time delivery
+- **Decision Role**: Influencer/champion, provides operational requirements, tests solutions
+
+### Secondary Audiences
+- **Procurement Teams**: Focus on supplier management and cost control
+- **IT/Security Teams**: Evaluate technical architecture, security, and integration requirements
+- **C-Suite Executives**: Approve large deals, focus on strategic impact and ROI
+
+---
+
+## Competitive Landscape
+
+### Direct Competitors
+1. **LegacyCorp**: Market leader with 30% share, strong brand but slow innovation. Strength: enterprise relationships. Weakness: outdated UX, long implementation.
+2. **FastTrack Solutions**: Mid-market focused, good UX but limited AI capabilities. Strength: quick time-to-value. Weakness: doesn't scale to enterprise complexity.
+3. **SupplyChain.AI**: AI-first startup, strong tech but immature product. Strength: cutting-edge ML. Weakness: stability issues, lacks enterprise features.
+
+### Indirect Competitors / Alternatives
+- Manual processes (Excel spreadsheets + email coordination)
+- Custom-built internal tools
+- Partial solutions (TMS, WMS as standalone systems without integration)
+
+### Competitive Differentiation Matrix
+| Dimension | Us | LegacyCorp | FastTrack | SupplyChain.AI |
+|-----------|----|-----------| ----------|----------------|
+| Implementation Speed | Days | Months | Weeks | Weeks |
+| AI/ML Capabilities | Advanced predictive + real-time | Basic reporting | Limited | Cutting-edge but unstable |
+| Enterprise Features | Strong | Very Strong | Moderate | Weak |
+| Modern UX | Excellent | Poor | Good | Good |
+| API/Integration | API-first | Limited | Moderate | API-first |
+
+### Where We Excel
+- **Speed to value**: 10x faster implementation than enterprise incumbents
+- **AI sophistication**: Advanced predictive capabilities with production stability
+- **Modern experience**: Consumer-grade UX in an enterprise context
+- **Integration flexibility**: API-first architecture enabling rapid ERP/system connections
+
+### Where Competitors Excel
+- **LegacyCorp**: Deep enterprise relationships, proven at massive scale, comprehensive feature set
+- **FastTrack**: Lower price point, simpler for basic use cases
+- **SupplyChain.AI**: Bleeding-edge ML research, PhD-level data science team
+
+---
+
+## Constraints & Considerations
+
+### Regulatory / Compliance
+[Any legal, regulatory, or compliance requirements - e.g., "SOC 2 Type II certification required for enterprise deals, GDPR compliance for EU expansion"]
+
+### Technical Constraints
+[Platform requirements, integrations, technical limitations - e.g., "Must support on-premise deployment option for regulated industries, requires API connections to SAP, Oracle, NetSuite"]
+
+### Budget Considerations
+[Budget constraints that influence scope or approach - e.g., "Marketing budget: $500K/quarter; limited resources for custom development"]
+
+### Timeline Constraints
+[Launch dates, deadlines, or time-sensitive factors - e.g., "Product launch at LogiTech Summit (March 15), customer case study needed by Q2 for RFP season"]
+
+### Other Considerations
+- [e.g., "Sales team lacks technical depth - need to simplify product positioning"]
+- [e.g., "Recent security incident at competitor creates opportunity to emphasize our security posture"]
+- [e.g., "CEO has strong opinions on minimal, clean design - avoid busy layouts"]
+
+---
+
+## Strategic Implications for Wireframe Design
+
+### Messaging Priorities
+[Based on value prop and differentiation, what should messaging emphasize?]
+- Lead with speed-to-value (implementation time) to counter incumbent complexity
+- Highlight AI capabilities but emphasize practical business outcomes, not technical jargon
+- Position as "enterprise-grade but without enterprise complexity"
+- Use customer success metrics prominently (40% stockout reduction, 60% time savings)
+
+### Content Hierarchy Guidance
+[Based on audience pain points and goals, what content matters most?]
+1. **Hero**: Lead with transformation promise, not product features ("See everything, predict anything, act instantly")
+2. **Proof early**: Directors need validation - surface customer logos, ROI stats, and case studies high on page
+3. **Implementation ease**: Address #1 objection (long, complex deployments) within first 2-3 sections
+4. **Technical depth**: Provide gated access to architecture docs for IT/security evaluators
+
+### Competitive Positioning Opportunities
+[Based on competitive analysis, where can design amplify differentiation?]
+- **Speed contrast**: Visual timeline showing "Us: 3 days" vs "Them: 6 months" for implementation
+- **AI transparency**: Demystify AI with clear use cases, not black-box claims
+- **Modern aesthetic**: Clean, spacious design signals modern platform (contrast with cluttered legacy UIs)
+- **Integration showcase**: Visual diagram of ecosystem integrations (emphasize API-first)
+
+### Conversion Optimization Focus
+[Based on business goals and KPIs, what conversion paths matter most?]
+- **Primary CTA**: "Book a Demo" (optimized for qualified enterprise leads)
+- **Secondary CTA**: "See ROI Calculator" (for self-service education, nurture leads)
+- **Micro-conversions**: Resource downloads (whitepapers, case studies) to build pipeline
+- **Segmentation**: Offer fast-track demo booking for enterprise vs. standard for SMB
+
+---
+
+## Usage Notes
+
+### When to Update This Document
+- Quarterly business reviews or strategy shifts
+- Major product launches or repositioning
+- Competitive landscape changes (new entrants, acquisitions)
+- Target audience evolution (moving upmarket/downmarket)
+- Significant wins/losses that reveal new insights
+
+### How Agents Use This Context
+All wireframe generation agents (`brief-analyzer`, `wireframe-strategist`, `prompt-generator`) reference this document to:
+- Align wireframe strategy with business goals and KPIs
+- Emphasize competitive differentiators in messaging and layout
+- Target specific personas with tailored content hierarchy
+- Optimize conversion paths based on strategic priorities
+- Ensure design decisions support market positioning
+
+### Validation Checklist
+Before finalizing wireframe designs, confirm:
+- [ ] Messaging reflects core value proposition and differentiators
+- [ ] Content hierarchy addresses top persona pain points
+- [ ] Competitive advantages are visually emphasized
+- [ ] Conversion paths align with business KPIs and success metrics
+- [ ] Design aesthetic supports desired brand positioning

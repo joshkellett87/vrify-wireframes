@@ -1,0 +1,12 @@
+{
+  "extends": "../../packages/wireframe-core/configs/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@wireframe/core": ["../../packages/wireframe-core/src"]
+    }
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

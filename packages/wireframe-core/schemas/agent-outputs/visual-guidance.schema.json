@@ -1,0 +1,16 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schemas/agent-outputs/visual-guidance.schema.json",
+  "title": "Visual Guidance",
+  "type": "object",
+  "allOf": [ { "$ref": "universal-header.schema.json" } ],
+  "properties": {
+    "designThemes": { "type": "array", "items": { "type": "string" } },
+    "layoutBackbone": { "type": "object" },
+    "devicePriorities": { "type": "object" },
+    "accessibilityAnchors": { "type": "array", "items": { "type": "string" } },
+    "sections": { "type": "array", "items": { "type": "object" } },
+    "assumptions": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["agentName", "contractId", "version", "timestamp", "projectSlug", "designThemes"]
+}

@@ -1,0 +1,63 @@
+VRIFY Pricing Page V2 Wireframes
+================================
+
+Project Origin
+--------------
+Created: January 2026
+Updated: January 13, 2026
+
+Project Overview
+----------------
+This wireframe project reimagines the VRIFY pricing page to accommodate VRIFY Predict as a suite with multiple sub-products (DORA, Cousteau, Data Augmentation) while VRIFY Present remains a standalone product.
+
+Primary Goal
+------------
+Drive "Book a Demo" CTA clicks from qualified prospects evaluating VRIFY's integrated platform.
+
+Product Architecture
+--------------------
+1. VRIFY Data Uploader (Foundational)
+   - Enables importing diverse data types/formats
+   - Cleans, standardizes, and unifies data
+   - Required first step for both VRIFY Predict and VRIFY Present
+
+2. VRIFY Predict (Suite - 3 products)
+   - "Exploration Intelligence for Mineral Discovery"
+   - Sub-products: DORA, Cousteau, Data Augmentation
+
+3. VRIFY Present (Standalone)
+   - "Multidimensional Communication for Exploration and Mining"
+   - Creates 3D Presentations
+
+Wireframe Variants (4 total)
+----------------------------
+
+Layout A: Banner + Stacked (2 variants)
+Products arranged top-to-bottom with Data Uploader as foundation banner.
+
+1. Variant A1 - Banner Expanded
+   Route: /vrify-pricing-v2/banner-expanded
+   Modules: Expanded nested cards (all content visible)
+   Hypothesis: Banner positions Data Uploader as prereq; expanded cards show full detail.
+
+2. Variant A2 - Banner Accordion
+   Route: /vrify-pricing-v2/banner-accordion
+   Modules: Collapsible accordion (single-expand)
+   Hypothesis: Dense layout with on-demand detail exploration via accordions.
+
+Layout B: Foundation + Side-by-Side (2 variants)
+Data Uploader as foundation band, products side-by-side for comparison.
+
+3. Variant B1 - Foundation Expanded
+   Route: /vrify-pricing-v2/foundation-expanded
+   Modules: Expanded nested cards
+   Hypothesis: Two-column enables direct comparison; expanded cards show full detail.
+
+4. Variant B2 - Foundation Accordion
+   Route: /vrify-pricing-v2/foundation-accordion
+   Modules: Collapsible accordion
+   Hypothesis: Compact comparison view with on-demand details via accordions.
+
+Reference Materials
+-------------------
+- V2 Design mockup: context/temp/screenshots/pricing-page-v2-reference.png

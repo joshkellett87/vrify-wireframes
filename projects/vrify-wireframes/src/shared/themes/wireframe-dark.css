@@ -1,0 +1,51 @@
+/**
+ * Wireframe Dark Theme
+ *
+ * Use for:
+ * - Dark mode wireframe presentations
+ * - Night mode client reviews
+ * - Screen recording/demos with reduced eye strain
+ *
+ * Apply: Add class "wireframe-dark" to html or body element
+ */
+
+.wireframe-dark {
+  /* Dark mode color tokens */
+  --background: 0 0% 8%;
+  --foreground: 0 0% 90%;
+
+  --card: 0 0% 12%;
+  --card-foreground: 0 0% 90%;
+  --card-border: 0 0% 24%;
+
+  --primary: 0 0% 72%;
+  --primary-foreground: 0 0% 8%;
+  --primary-hover: 0 0% 88%;
+
+  --secondary: 0 0% 18%;
+  --secondary-foreground: 0 0% 88%;
+  --secondary-hover: 0 0% 24%;
+
+  --muted: 0 0% 18%;
+  --muted-foreground: 0 0% 60%;
+
+  --accent: 0 0% 20%;
+  --accent-foreground: 0 0% 88%;
+
+  --border: 0 0% 24%;
+  --input-border: 0 0% 30%;
+  --annotation: 0 0% 50%;
+  --placeholder: 0 0% 38%;
+
+  /* Wireframe grayscale remap for dark mode */
+  --wireframe-50: 0 0% 12%;
+  --wireframe-100: 0 0% 16%;
+  --wireframe-200: 0 0% 24%;
+  --wireframe-300: 0 0% 38%;
+  --wireframe-400: 0 0% 54%;
+  --wireframe-500: 0 0% 70%;
+  --wireframe-600: 0 0% 78%;
+  --wireframe-700: 0 0% 84%;
+  --wireframe-800: 0 0% 90%;
+  --wireframe-900: 0 0% 94%;
+}

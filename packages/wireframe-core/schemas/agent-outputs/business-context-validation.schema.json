@@ -1,0 +1,16 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schemas/agent-outputs/business-context-validation.schema.json",
+  "title": "Business Context Validation",
+  "type": "object",
+  "allOf": [ { "$ref": "universal-header.schema.json" } ],
+  "properties": {
+    "projectSlug": { "type": "string" },
+    "exportDetected": { "type": "boolean" },
+    "metadataLinked": { "type": "boolean" },
+    "globalFindings": { "type": "array", "items": { "type": "string" } },
+    "variants": { "type": "array", "items": { "type": "object" } },
+    "nextSteps": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["agentName", "contractId", "version", "timestamp", "projectSlug", "variants"]
+}

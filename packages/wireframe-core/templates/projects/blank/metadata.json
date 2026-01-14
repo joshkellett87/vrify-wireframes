@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "2.0",
+  "id": "{{PROJECT_ID}}",
+  "slug": "{{PROJECT_SLUG}}",
+  "title": "{{PROJECT_TITLE}}",
+  "description": "{{PROJECT_DESCRIPTION}}",
+  "version": "1.0.0",
+  "lastUpdated": "{{TIMESTAMP}}",
+  "projectType": "multi-variant",
+  "routes": {
+    "index": "/{{PROJECT_SLUG}}"
+  },
+  "variants": {},
+  "sections": [
+    {
+      "id": "hero",
+      "label": "Hero Section",
+      "anchor": "hero",
+      "description": "Main introduction and value proposition"
+    }
+  ],
+  "businessContext": {
+    "primaryGoal": null,
+    "goals": [],
+    "personas": [],
+    "kpis": []
+  }
+}

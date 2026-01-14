@@ -1,0 +1,55 @@
+# {{PROJECT_TITLE}}
+
+## Overview
+{{PROJECT_DESCRIPTION}}
+
+This example demonstrates a complete wireframe project with multiple strategic variants.
+
+## Business Goals
+1. **Increase Signups** (Primary) - Drive free trial sign-ups
+2. **Build Trust** - Establish credibility with skeptical buyers
+
+## Target Personas
+1. **Decision Maker** - Executive looking for quick ROI, values efficiency
+2. **Skeptical Buyer** - Technical evaluator, needs proof and security assurance
+
+## Key Performance Indicators
+- Conversion rate (free trial sign-ups)
+- Time on page
+- Scroll depth
+
+## Wireframe Variants
+
+### Variant 1: Conversion First
+**Hypothesis:** Leading with a clear CTA and minimal friction will increase conversion rates
+
+**Strategy:**
+- Hero with prominent "Get Started Free" CTA above the fold
+- Minimal form fields
+- Feature highlights focused on quick wins
+- Multiple CTAs throughout the page
+
+**Target Persona:** Decision Maker
+
+### Variant 2: Trust Building
+**Hypothesis:** Building trust through testimonials and credentials will reduce drop-off
+
+**Strategy:**
+- Social proof and trust signals in hero (user count, certifications)
+- Testimonials from recognized brands
+- Security and compliance badges
+- Enterprise feature emphasis
+- Low-pressure CTA (risk-free trial)
+
+**Target Persona:** Skeptical Buyer
+
+## Key Sections
+- Hero: Value proposition + primary CTA
+- Features: Core product capabilities
+- Social Proof: Testimonials, metrics, trust signals (varies by variant)
+- CTA: Final conversion point
+
+## Success Metrics
+- Measure conversion rate difference between variants
+- Track time-to-conversion
+- Monitor bounce rate by section

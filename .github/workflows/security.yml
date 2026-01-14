@@ -1,0 +1,43 @@
+name: Security
+
+on:
+  # Run weekly on Monday at midnight UTC
+  schedule:
+    - cron: "0 0 * * 1"
+  # Run on PRs
+  pull_request:
+    branches: ["*"]
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  audit:
+    name: Dependency Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run npm audit
+        run: npm audit --audit-level=high
+        continue-on-error: true # Report but don't fail initially
+
+      - name: Check for known vulnerabilities
+        run: |
+          echo "## Security Audit Results" >> $GITHUB_STEP_SUMMARY
+          npm audit --json | jq -r '
+            if .metadata.vulnerabilities.high > 0 or .metadata.vulnerabilities.critical > 0 then
+              "⚠️ Found \(.metadata.vulnerabilities.high) high and \(.metadata.vulnerabilities.critical) critical vulnerabilities"
+            else
+              "✅ No high or critical vulnerabilities found"
+            end
+          ' >> $GITHUB_STEP_SUMMARY || true

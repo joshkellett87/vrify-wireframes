@@ -1,0 +1,165 @@
+{
+  "schema_version": "2.0",
+  "id": "mining-tech-survey",
+  "slug": "mining-tech-survey",
+  "title": "Mining Tech Survey Report",
+  "description": "Resource landing page highlighting survey findings with lead capture",
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-01",
+  "businessContext": {
+    "primaryGoal": "success-drive-qualified-demo-requests",
+    "goals": [
+      "success-drive-qualified-demo-requests"
+    ],
+    "personas": [
+      "operations-executive-sponsor",
+      "digital-workflows-evaluator"
+    ],
+    "kpis": [
+      "kpi-qualified-demo-volume"
+    ]
+  },
+  "variants": {
+    "option-a": {
+      "name": "Option A",
+      "description": "Form-forward (above-the-fold emphasis)",
+      "emphasis": "Two-column hero with preview card, streamlined overview, FAQ before form",
+      "when": "Push conversions above the fold when traffic is already intent-rich and familiar with VRIFY",
+      "hypothesis": "If we keep the CTA in constant view for the operations sponsor, we increase qualified demo requests from high-intent return visitors.",
+      "businessContextRef": {
+        "goalIds": [
+          "success-drive-qualified-demo-requests"
+        ],
+        "personaIds": [
+          "operations-executive-sponsor"
+        ]
+      }
+    },
+    "option-b": {
+      "name": "Option B",
+      "description": "Highlights-forward (sticky CTA)",
+      "emphasis": "Hero includes quick form, findings grouped by themes, methodology + FAQ mid-page",
+      "when": "Hook evaluators skimming for proof while still converting high-intent visitors quickly",
+      "hypothesis": "If we foreground survey takeaways before the form, digital workflow evaluators will feel confident enough to submit without leaving.",
+      "businessContextRef": {
+        "goalIds": [
+          "success-drive-qualified-demo-requests"
+        ],
+        "personaIds": [
+          "digital-workflows-evaluator"
+        ]
+      }
+    },
+    "option-c": {
+      "name": "Option C",
+      "description": "Trust-forward (methods early)",
+      "emphasis": "Methodology snapshot appears pre-section, elevated methodology layout, FAQ for objections",
+      "when": "Reassure skeptical stakeholders who need to vet rigor before sharing the report",
+      "hypothesis": "If we prove methodological rigor up front, skeptical stakeholders will feel safe sharing the asset internally and convert.",
+      "businessContextRef": {
+        "goalIds": [
+          "success-drive-qualified-demo-requests"
+        ],
+        "personaIds": [
+          "operations-executive-sponsor",
+          "digital-workflows-evaluator"
+        ]
+      }
+    }
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "anchor": "hero",
+      "whyNow": "Orient visitors and expose the primary CTA immediately",
+      "jtbd": {
+        "situation": "Visitor lands from Resources, social, or email",
+        "motivation": "Confirm what this page is and the primary action",
+        "outcome": "Confidence to scan highlights or proceed to the form"
+      }
+    },
+    {
+      "name": "Report Overview",
+      "anchor": "overview",
+      "whyNow": "Preview scope and deliverables before the form to reduce friction",
+      "jtbd": {
+        "situation": "Stakeholders decide if the PDF merits a form fill",
+        "motivation": "Understand the report's scope and what is delivered after submission",
+        "outcome": "Clear value perception and readiness to submit the form"
+      }
+    },
+    {
+      "name": "Key Findings",
+      "anchor": "findings",
+      "whyNow": "Showcase thematic insights that tease value without giving away the full story",
+      "jtbd": {
+        "situation": "Execs/evaluators skim for substance quickly",
+        "motivation": "See credible first-party proof points fast",
+        "outcome": "Desire to access the full dataset"
+      }
+    },
+    {
+      "name": "Methodology Snapshot",
+      "anchor": "methodology-snapshot",
+      "whyNow": "Establish credibility at a glance without derailing the highlights narrative",
+      "jtbd": {
+        "situation": "Evaluators verify rigor before sharing",
+        "motivation": "Confirm first-party independence, sample, and timing",
+        "outcome": "Trust to proceed with download and circulate internally"
+      }
+    },
+    {
+      "name": "Methodology Deep Dive",
+      "anchor": "methodology",
+      "whyNow": "Provide full transparency for decision-makers",
+      "jtbd": {
+        "situation": "Stakeholders need detailed rigor verification",
+        "motivation": "Answer questions about sample, methods, and objectivity",
+        "outcome": "Confidence in data quality and willingness to act on insights"
+      }
+    },
+    {
+      "name": "FAQ",
+      "anchor": "faq",
+      "whyNow": "Catch latent concerns before the conversion point",
+      "jtbd": {
+        "situation": "Visitor has objections or questions",
+        "motivation": "Find quick answers without leaving the page",
+        "outcome": "Reduced friction, ready to convert"
+      }
+    },
+    {
+      "name": "Get the Report",
+      "anchor": "get-report",
+      "whyNow": "Convert once value and trust are established",
+      "jtbd": {
+        "situation": "Visitor is ready to act",
+        "motivation": "Complete a simple, low-friction form",
+        "outcome": "Receive the PDF and enter the thank-you flow"
+      }
+    },
+    {
+      "name": "Related Resources",
+      "anchor": "resources",
+      "whyNow": "Offer a safe path for non-converters at the end",
+      "jtbd": {
+        "situation": "Some users aren't ready to download",
+        "motivation": "Browse adjacent materials to self-qualify",
+        "outcome": "Stay in the ecosystem and return to convert later"
+      }
+    }
+  ],
+  "targetAudience": [
+    "Executive sponsor (ops/exploration leader)",
+    "Technical/digital evaluator influencing tools and workflows"
+  ],
+  "routes": {
+    "index": "/mining-tech-survey",
+    "resources": [
+      "/mining-tech-survey/resources",
+      "/mining-tech-survey/resources/mining-innovation-trends-2024",
+      "/mining-tech-survey/resources/technology-adoption-benchmarks",
+      "/mining-tech-survey/resources/industry-best-practices-guide"
+    ]
+  }
+}

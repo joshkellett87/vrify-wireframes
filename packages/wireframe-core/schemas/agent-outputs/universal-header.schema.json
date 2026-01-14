@@ -1,0 +1,16 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schemas/agent-outputs/universal-header.schema.json",
+  "title": "Universal Agent Output Header",
+  "type": "object",
+  "properties": {
+    "agentName": { "type": "string" },
+    "contractId": { "type": "string" },
+    "version": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "projectSlug": { "type": "string" },
+    "sourcePaths": { "type": "object", "additionalProperties": { "type": ["string", "array", "object"] } },
+    "notes": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["agentName", "contractId", "version", "timestamp", "projectSlug"]
+}

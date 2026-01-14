@@ -1,0 +1,21 @@
+# {{PROJECT_TITLE}}
+
+## Overview
+A showcase of all available shared components in the wireframe framework. Use this as a reference when building your own wireframes.
+
+## Purpose
+- Demonstrate component library capabilities
+- Provide copy-paste examples
+- Show layout patterns and best practices
+
+## Components Showcased
+- Buttons (all variants)
+- Cards
+- Metric Cards
+- Feature Grids
+- Process Steps
+- Testimonial Cards
+- Comparison Tables
+
+## Usage
+Copy component patterns from this showcase into your own wireframe projects. All components are imported from @wireframe/core.

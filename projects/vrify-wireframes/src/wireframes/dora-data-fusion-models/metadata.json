@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.0",
+  "id": "dora-data-fusion-models",
+  "slug": "dora-data-fusion-models",
+  "title": "Dora Data Fusion Models",
+  "description": "Wireframe recreation of the VRIFY DORA platform page with verbatim content and interactions.",
+  "version": "0.1.0",
+  "lastUpdated": "2025-02-14",
+  "variants": {},
+  "sections": [
+    {
+      "name": "Hero",
+      "anchor": "hero"
+    },
+    {
+      "name": "Trust Signals",
+      "anchor": "trust"
+    },
+    {
+      "name": "How It Works",
+      "anchor": "how-it-works"
+    },
+    {
+      "name": "Discover DORA",
+      "anchor": "discover"
+    },
+    {
+      "name": "Case Study",
+      "anchor": "case-study"
+    },
+    {
+      "name": "Benefits",
+      "anchor": "benefits"
+    },
+    {
+      "name": "Testimonials",
+      "anchor": "testimonials"
+    },
+    {
+      "name": "Primary CTA",
+      "anchor": "primary-cta"
+    }
+  ],
+  "targetAudience": [
+    "C-suite leaders at mineral exploration companies",
+    "VP Exploration and technical geoscience leads",
+    "Investor-facing teams evaluating VRIFY partnerships"
+  ],
+  "routes": {
+    "index": "/dora-data-fusion-models"
+  },
+  "projectType": "single-variant",
+  "resources": []
+}

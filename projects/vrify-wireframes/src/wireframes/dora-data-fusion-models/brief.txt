@@ -1,0 +1,16 @@
+Project Name: Dora Data Fusion Models
+Primary Goal: Book a demo CTA clicks
+Target Audience(s): C-suite & VP Exploration leaders, technical geoscientists, investor relations teams within mineral exploration companies
+
+Sections & JTBD (edit as needed)
+1) Hero — Highlight VRIFY's AI-assisted mineral discovery positioning and immediate CTA
+2) Trust Signals — Reinforce credibility with partner logos and platform preview
+3) How It Works — Step-by-step walkthrough of the DORA workflow
+4) Discover DORA — Transition strip reinforcing the platform name and benefits
+5) Case Study — Spotlight Cartier Resources success story with CTA
+6) Benefits — Four-card summary of value pillars
+7) Testimonials — Rotating quotes from RUA Gold and Southern Cross Gold leaders
+8) Primary CTA — High-impact conversion section driving demo bookings
+
+Routing Preference: Namespace under /dora-data-fusion-models until variants are introduced
+Variants: Single variant for initial parity build; expand later once change hypotheses are defined.

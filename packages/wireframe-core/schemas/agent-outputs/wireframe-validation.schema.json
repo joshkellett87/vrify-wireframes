@@ -1,0 +1,15 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schemas/agent-outputs/wireframe-validation.schema.json",
+  "title": "Wireframe Validation",
+  "type": "object",
+  "allOf": [ { "$ref": "universal-header.schema.json" } ],
+  "properties": {
+    "valid": { "type": "boolean" },
+    "score": { "type": "object" },
+    "issues": { "type": "array", "items": { "type": "object" } },
+    "summary": { "type": "string" },
+    "autoFixableIssueIds": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["agentName", "contractId", "version", "timestamp", "projectSlug", "valid", "issues"]
+}

@@ -1,0 +1,110 @@
+Pricing Content Outline + JTBD 
+
+Page Type: Resource landing page (report highlights + lead capture) 
+Primary Purpose: Drive on-page form submissions to deliver the full PDF report; highlight a 
+few notable data points to spark interest. 
+Target Audience: Executive sponsor (ops/exploration leader) and technical/digital evaluator 
+inﬂuencing tools and workﬂows. 
+Notes/Constraints from Requester: Teaser, not full summary; cap 3–5 on-page highlights; 
+add “What you’ll get”; include quick methods context (who/when/how); minimize form ﬁelds; 
+primary CTA = Get the full report; align to FY25 objective to release the survey/report and 
+generate demand. 
+
+Proposed Section Order 
+
+1.  Hero 
+
+2.  Report Overview, Why It Matters & “What You’ll Get” 
+
+3.  Key Findings (3–5 Data Highlights) 
+
+4.  Methodology Snapshot (Who / When / How) 
+
+5.  Get the Full Report (On-page Form) 
+
+6.  Related Resources 
+
+Section 
+
+Why Now + JTBD 
+
+Hero 
+
+Why Now: Instant orientation—make it clear this is a highlights page and set 
+one next step (get the full PDF) to avoid survey/report confusion. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+JTBD 
+• Situation: Visitor lands from Resources, social, or email. 
+• Motivation: Conﬁrm what this page is and the primary action. 
+• Outcome: Conﬁdence to scan highlights or proceed to the form. 
+
+Report Overview, Why It 
+Matters & “What You’ll 
+Get” 
+
+Why Now: Preview scope and deliverables before the form to reduce friction 
+and set expectations for value 
+
+JTBD 
+• Situation: Stakeholders decide if the PDF merits a form ﬁll. 
+• Motivation: Understand the report’s scope, why the ﬁndings matter to 
+current exploration/modernization decisions, and exactly what is delivered 
+after submission. 
+• Outcome: Clear value perception and readiness to submit the form after 
+scanning highlights. 
+
+Key Findings (3–5 Data 
+Highlights) 
+
+Why Now: A tight set of memorable data points builds curiosity without 
+giving away the full story, preserving download incentive. 
+
+JTBD 
+• Situation: Execs/evaluators skim for substance quickly. 
+• Motivation: See credible ﬁrst-party proof points fast. 
+• Outcome: Desire to access the full dataset. 
+
+Methodology Snapshot 
+(Who / When / How) 
+
+Why Now: Establish credibility at a glance with concise, transparent 
+methods without derailing the highlights narrative. 
+
+JTBD 
+• Situation: Evaluators verify rigor before sharing. 
+• Motivation: Conﬁrm ﬁrst-party independence, sample, and timing. 
+• Outcome: Trust to proceed with download and circulate internally. 
+
+Get the Full Report 
+(Inline Form) 
+
+Why Now: Present the conversion moment once value is clear; keep ﬁelds 
+minimal and delivery explicit (PDF via email/instant). 
+
+JTBD 
+• Situation: Visitor is ready to act. 
+
+• Motivation: Complete a simple, low-friction form. 
+• Outcome: Receive the PDF and enter the thank-you ﬂow. 
+
+Related Resources 
+
+Why Now: Offer a safe path for non-converters at the end, keeping them 
+within VRIFY content without distracting from the primary CTA. 
+
+JTBD 
+• Situation: Some users aren’t ready to download. 
+• Motivation: Browse adjacent materials to self-qualify. 
+• Outcome: Stay in the ecosystem and return to convert later. 
+
+ 
+

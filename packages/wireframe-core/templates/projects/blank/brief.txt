@@ -1,0 +1,17 @@
+# {{PROJECT_TITLE}}
+
+## Overview
+{{PROJECT_DESCRIPTION}}
+
+## Goals
+- [Add your primary goal here]
+
+## Target Audience
+- [Define your target audience]
+
+## Key Sections
+- Hero: Introduction and main value proposition
+
+## Notes
+- This is a blank template - customize as needed
+- Run agents or build directly in code

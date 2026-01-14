@@ -1,0 +1,54 @@
+name: Agent Output and Docs Validation
+on:
+  pull_request:
+    branches: ["*"]
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Docs check
+        run: npm run docs:check
+
+      - name: Build framework
+        run: npm run build -w @wireframe/core
+
+      - name: Export business context
+        run: npm run export:business-context
+
+      - name: Check for wireframe projects
+        id: check-projects
+        run: |
+          # Check for actual project subdirectories (not just .gitkeep)
+          if [ -d "projects" ] && [ "$(find projects -mindepth 1 -maxdepth 1 -type d 2>/dev/null)" ]; then
+            echo "has_projects=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_projects=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Validate metadata
+        if: steps.check-projects.outputs.has_projects == 'true'
+        run: npm run validate:metadata
+
+      - name: Validate agent outputs
+        if: steps.check-projects.outputs.has_projects == 'true'
+        run: npm run validate:agent-outputs
+
+      - name: Skip validation (no projects)
+        if: steps.check-projects.outputs.has_projects == 'false'
+        run: |
+          echo "ℹ️  No wireframe projects found to validate"
+          echo "Validation will run automatically when projects are added"

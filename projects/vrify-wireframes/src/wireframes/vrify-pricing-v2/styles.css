@@ -1,0 +1,68 @@
+/* VRIFY Pricing V2 Wireframe Typography System
+   Import this in pages that need these specific typography classes */
+
+/* Typography System - matches the original Lovable project */
+.hero-heading {
+  @apply font-inter font-bold leading-tight;
+  font-size: 60px;
+}
+
+.h1-heading {
+  @apply font-inter font-bold leading-tight;
+  font-size: 48px;
+}
+
+.h2-heading {
+  @apply font-inter font-bold leading-tight;
+  font-size: 36px;
+}
+
+.h3-heading {
+  @apply font-inter font-medium leading-relaxed;
+  font-size: 24px;
+}
+
+.h4-heading {
+  @apply font-inter font-medium leading-relaxed;
+  font-size: 20px;
+}
+
+.body-text {
+  @apply font-inter font-normal leading-relaxed;
+  font-size: 16px;
+}
+
+.caption-text {
+  @apply font-plex-mono font-normal leading-relaxed;
+  font-size: 14px;
+}
+
+.button-text {
+  @apply font-inter font-medium;
+  font-size: 16px;
+}
+
+/* Additional wireframe-specific color tokens */
+.text-wireframe-text {
+  color: hsl(var(--wireframe-text, 0 0% 60%));
+}
+
+.bg-wireframe-box {
+  background-color: hsl(var(--wireframe-box, 0 0% 90%));
+}
+
+.border-wireframe-divider {
+  border-color: hsl(var(--wireframe-divider, 0 0% 85%));
+}
+
+.bg-wireframe-placeholder {
+  background-color: hsl(var(--wireframe-placeholder, 0 0% 75%));
+}
+
+.border-wireframe-border {
+  border-color: hsl(var(--wireframe-border, 0 0% 70%));
+}
+
+.bg-wireframe-bg {
+  background-color: hsl(var(--wireframe-bg, 0 0% 94%));
+}

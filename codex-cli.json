@@ -1,0 +1,105 @@
+{
+  "name": "wireframe-platform",
+  "version": "1.0.0",
+  "description": "Codex CLI prompt manifest for the core wireframe platform 5-command slash prompts (Option B).",
+  "baseDir": "context/prompts",
+  "prompts": {
+    "analyze": {
+      "path": "analyze.prompt.md",
+      "description": "Analyze intake material to produce structured wireframe brief outputs.",
+      "aliases": [
+        "/analyze"
+      ],
+      "phase": "analyze",
+      "variables": [
+        "project",
+        "brief",
+        "url",
+        "screenshot",
+        "refresh_context"
+      ]
+    },
+    "export": {
+      "path": "export.prompt.md",
+      "description": "Package agent outputs and optionally generate the Lovable export prompt.",
+      "aliases": [
+        "/export"
+      ],
+      "phase": "export",
+      "variables": [
+        "project",
+        "lovable"
+      ]
+    },
+    "start": {
+      "path": "start.prompt.md",
+      "description": "Summarize current workflow state, surfaced artifacts, and recommended next actions.",
+      "aliases": [
+        "/start"
+      ],
+      "phase": "orientation",
+      "variables": [
+        "project"
+      ]
+    },
+    "strategize": {
+      "path": "strategize.prompt.md",
+      "description": "Generate differentiated wireframe layout variants and routing guidance.",
+      "aliases": [
+        "/strategize"
+      ],
+      "phase": "strategize",
+      "variables": [
+        "project",
+        "variants"
+      ]
+    },
+    "validate": {
+      "path": "validate.prompt.md",
+      "description": "Validate metadata, business context alignment, and optional UI artifacts.",
+      "aliases": [
+        "/validate"
+      ],
+      "phase": "validate",
+      "variables": [
+        "project",
+        "metadata",
+        "context",
+        "ui",
+        "dom",
+        "screenshot",
+        "console"
+      ]
+    },
+    "ux-review": {
+      "path": "ux-review.prompt.md",
+      "description": "Critically review a built variant against UX heuristics and business goals.",
+      "aliases": [
+        "/ux-review"
+      ],
+      "phase": "validate",
+      "variables": [
+        "project",
+        "variant",
+        "dom",
+        "screenshot",
+        "change_log"
+      ]
+    },
+    "wf": {
+      "path": "wf.prompt.md",
+      "description": "Run the end-to-end wireframe orchestrator workflow for wireframe platform projects.",
+      "aliases": [
+        "/wf"
+      ],
+      "phase": "orchestrate",
+      "variables": [
+        "project",
+        "brief",
+        "url",
+        "screenshot",
+        "refresh_context"
+      ]
+    }
+  }
+}

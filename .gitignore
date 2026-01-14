@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and build outputs
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# Backup files
+*.backup
+*.v1.backup
+*.v2.backup
+*.tmp
+
+# Test artifacts (generated during review)
+review-screenshots/**
+!review-screenshots/.gitkeep
+tests/screenshots/**
+!tests/screenshots/.gitkeep
+
+# Playwright and Vitest outputs
+playwright-report/
+test-results/
+coverage/
+
+# Bun
+bun.lockb
+
+# Temp artifacts
+context/temp/**
+!context/temp/.gitkeep
+
+# Agent workflow outputs (temporary)
+context/temp-agent-outputs/**
+!context/temp-agent-outputs/.gitkeep
+
+# Local Claude/agent command manifests
+.claude/
+.code/

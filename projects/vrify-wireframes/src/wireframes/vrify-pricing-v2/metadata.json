@@ -1,0 +1,104 @@
+{
+  "schema_version": "2.0",
+  "id": "vrify-pricing-v2",
+  "slug": "vrify-pricing-v2",
+  "title": "Pricing Page V2",
+  "description": "Reimagined pricing page accommodating VRIFY Predict as a suite with sub-products while VRIFY Present remains standalone. Explores banner and foundation layouts with expanded and accordion module displays.",
+  "version": "2.1.0",
+  "lastUpdated": "2026-01-13",
+  "businessContext": {
+    "primaryGoal": "success-drive-qualified-demo-requests",
+    "goals": ["success-drive-qualified-demo-requests"],
+    "personas": ["operations-executive-sponsor"],
+    "kpis": ["kpi-qualified-demo-volume"]
+  },
+  "variants": {
+    "banner-expanded": {
+      "name": "Banner Expanded",
+      "label": "Variant A1",
+      "description": "Foundation banner Data Uploader + expanded nested module cards in stacked layout.",
+      "hypothesis": "Banner treatment positions Data Uploader as foundational prereq. Expanded cards show full module detail upfront.",
+      "ctaLabel": "View A1",
+      "businessContextRef": {
+        "goalIds": ["success-drive-qualified-demo-requests"],
+        "personaIds": ["operations-executive-sponsor"]
+      }
+    },
+    "banner-accordion": {
+      "name": "Banner Accordion",
+      "label": "Variant A2",
+      "description": "Foundation banner Data Uploader + collapsible accordion modules for dense layout.",
+      "hypothesis": "Banner foundation with accordion modules creates dense layout while allowing on-demand detail exploration.",
+      "ctaLabel": "View A2",
+      "businessContextRef": {
+        "goalIds": ["success-drive-qualified-demo-requests"],
+        "personaIds": ["operations-executive-sponsor"]
+      }
+    },
+    "foundation-expanded": {
+      "name": "Foundation Expanded",
+      "label": "Variant B1",
+      "description": "Foundation band Data Uploader + side-by-side product cards with expanded nested modules.",
+      "hypothesis": "Two-column layout enables direct product comparison while foundation band establishes Data Uploader as underlying prerequisite.",
+      "ctaLabel": "View B1",
+      "businessContextRef": {
+        "goalIds": ["success-drive-qualified-demo-requests"],
+        "personaIds": ["operations-executive-sponsor"]
+      }
+    },
+    "foundation-accordion": {
+      "name": "Foundation Accordion",
+      "label": "Variant B2",
+      "description": "Foundation band Data Uploader + side-by-side product cards with accordion modules.",
+      "hypothesis": "Two-column layout with accordion modules provides compact comparison view with on-demand detail exploration.",
+      "ctaLabel": "View B2",
+      "businessContextRef": {
+        "goalIds": ["success-drive-qualified-demo-requests"],
+        "personaIds": ["operations-executive-sponsor"]
+      }
+    }
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "anchor": "hero"
+    },
+    {
+      "name": "Data Uploader",
+      "anchor": "data-uploader"
+    },
+    {
+      "name": "Products",
+      "anchor": "products"
+    },
+    {
+      "name": "Social Proof",
+      "anchor": "social-proof"
+    },
+    {
+      "name": "How It Works",
+      "anchor": "how-it-works"
+    },
+    {
+      "name": "FAQ",
+      "anchor": "faq"
+    },
+    {
+      "name": "Testimonial",
+      "anchor": "testimonial"
+    },
+    {
+      "name": "Final CTA",
+      "anchor": "cta"
+    }
+  ],
+  "targetAudience": [
+    "C-suite leaders evaluating VRIFY platform products",
+    "Technical decision-makers reviewing specifications and capabilities",
+    "Procurement teams assessing product features and compliance"
+  ],
+  "routes": {
+    "index": "/vrify-pricing-v2"
+  },
+  "projectType": "multi-variant"
+}

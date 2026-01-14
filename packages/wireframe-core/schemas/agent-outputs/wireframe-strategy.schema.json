@@ -1,0 +1,15 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schemas/agent-outputs/wireframe-strategy.schema.json",
+  "title": "Wireframe Strategy",
+  "type": "object",
+  "allOf": [ { "$ref": "universal-header.schema.json" } ],
+  "properties": {
+    "variantCount": { "type": "integer" },
+    "differentiationThesis": { "type": "string" },
+    "variants": { "type": "array", "items": { "type": "object" } },
+    "designRecommendations": { "type": "object" },
+    "routingRecommendations": { "type": "object" }
+  },
+  "required": ["agentName", "contractId", "version", "timestamp", "projectSlug", "variants"]
+}
