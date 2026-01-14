@@ -1,0 +1,3 @@
+run = "npm run dev -- --host 0.0.0.0"
+entrypoint = "projects/vrify-wireframes/src/main.tsx"
+modules = ["nodejs-20"]
