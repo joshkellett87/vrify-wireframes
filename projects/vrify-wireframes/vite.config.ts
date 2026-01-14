@@ -1,4 +1,4 @@
-import { createWireframeViteConfig } from "@wireframe/core/configs/vite";
+import { createWireframeViteConfig } from "../../packages/wireframe-core/configs/vite.config.base.ts";
 import { componentTagger } from "lovable-tagger";
 
 export default createWireframeViteConfig({
